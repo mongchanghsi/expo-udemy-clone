@@ -9,14 +9,29 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Featured: undefined;
+  Search: undefined;
+  Courses: undefined;
+  Wishlist: undefined;
+  Account: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type FeaturedParamList = {
+  FeaturedScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type SearchParamList = {
+  SearchScreen: undefined;
+};
+
+export type CoursesParamList = {
+  CoursesScreen: undefined;
+};
+
+export type WishlistParamList = {
+  WishlistScreen: undefined;
+};
+
+export type AccountParamList = {
+  AccountScreen: undefined;
 };
